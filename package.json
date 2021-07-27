@@ -1,7 +1,7 @@
 {
   "name": "@joneff/postcss-explode-selectors",
   "description": "A postcss plugin to explode (duplicate) selectors",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "author": "Ivan Zhekov",
   "license": "MIT",
   "keywords": [
