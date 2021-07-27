@@ -20,6 +20,9 @@
   "bugs": {
     "url": "https://github.com/joneff/postcss-explode-selectors/issues"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "eslint": "eslint \"**/*.js\"",
     "test": "mocha",
