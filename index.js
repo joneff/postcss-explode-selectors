@@ -16,7 +16,7 @@ function pluginFactory( options ) {
     const optsSelector = opts.selectors || [];
 
     return {
-        postcssPlugin: '@joneff/postcss-extend-selector',
+        postcssPlugin: '@joneff/postcss-explode-selectors',
         Rule: (rule) => {
             if (optsSelector.length === 0) {
                 return;
